@@ -1,6 +1,6 @@
 # Web Centro de Estudios Profesionales San Juan
 
-Este repositorio está destinado a la creación de la página web del Centro de Estudio Profesionales San Juan, situado en Oviedo, durante la estancia de prácticas laborales de [@enol-cloud](https://github.com/Enol-cloud) y [@L-edu1723](https://github.com/L-edu1723).
+Este repositorio está destinado a la creación de la página web del Centro de Estudio Profesionales San Juan, situado en Oviedo, durante la estancia de prácticas laborales de [@Enol-cloud](https://github.com/Enol-cloud) y [@L-edu1723](https://github.com/L-edu1723).
 
 ## Índice
 
