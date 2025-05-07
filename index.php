@@ -50,8 +50,31 @@
 
         </section>
         <section id="contacto">
+            <div class="imagen-contacto">
+            <img src="" alt="imagen del centro"><!--Aqui va una imagen posiblemente de el establecimiento -->
+            </div>
+            <div class="form-contact">
+            <form action="contact">
+                <label for="name"></label><br>
+                <input type="text" id="name" required placeholder="Introduzca su nombre"><br>
+                <label for="mail"></label><br>
+                <input type="email" id="mail" name="mail" placeholder="Introduzca su correo"><br>
+                <label for="subject"></label><br>
+                <select name="subject" id="subject">
+                    <option value="FP">FP</option>
+                    <option value="AgenciaColocacion">AgenciaDeColocacion</option>
+                    <option value="option3">option3</option>
+                    <option value="option4">option4</option>
+                    
+                </select>
+                <label for="text"></label><br>
+                <textarea name="mesage" id="mesage" rows="5"></textarea><br><br>
+                <input type="submit" value="ENVIAR">
 
-        </section>
+            </form>
+            </div>
+
+        </section>  
 
     </main>
     <footer>

@@ -28,3 +28,15 @@
     font-weight: bold;
   }
   
+  #contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 20px;
+  }
+
+  .imagen-contacto{
+    position: absolute;
+    left: 20px;
+  }
