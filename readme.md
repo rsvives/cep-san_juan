@@ -49,6 +49,8 @@ Este repositorio está destinado a la creación de la página web del Centro de 
 > To Be Defined
 
 ## Tareas ✅
+
+**Generales:**
 - [ ] Definir secciones
 - [ ] Crear wireframes
 - [ ] Menú de navegación 
@@ -56,6 +58,16 @@ Este repositorio está destinado a la creación de la página web del Centro de 
 - [ ] Slider
 - [ ] Formulario de contacto  
 - ...
+**Luis:**
+- [ ] Sección de contacto  con bootstrap (añadir row a la sección, la imagen con col, y el form con col)
+- [ ] Formulario de contacto con bootstrap (añadir clases pertinentes)
+- Añadir navbar con bootstrap
+- Enviar correo: Cambiar rutas absolutas a relativas
+
+
+**Enol:**
+
+
 
 ## Convenciones 📏
 
