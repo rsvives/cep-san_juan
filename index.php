@@ -12,6 +12,7 @@
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="form.js"></script>
 
 </head>
 
@@ -47,54 +48,48 @@
 
         </section>
         <section id="quienes-somos">
+        </section>
 
-        <section id="contacto">
-    <div class="imagen-contacto">
-        <img src="" alt="imagen del centro">
-    </div>
-    <div class="form-contact">
-        <form action="send.mail.php" method="post">
-            <label for="name"></label><br>
-            <input type="text" id="name" name="name" required placeholder="Introduzca su nombre"><br>
+        <section id="contacto" class="container-fluid">
+            <div class="p-5">
+                <div class="row">
+                    <div class="col">
+                        <img src="" alt="imagen del centro">
+                    </div>
+                    <div class="col">
+                        <form action="send.mail.php" method="post" class="mb-3">
+                            <label for="name" class="form-label">Nombre:</label>
+                            <input type="text" id="name" name="name" required placeholder="Pon tu nombre completo" class="form-control">
 
-            <label for="mail"></label><br>
-            <input type="email" id="mail" name="mail" required placeholder="Introduzca su correo"><br>
+                            <label for="mail" class="form-label">Email:</label>
+                            <input type="email" id="mail" name="mail" required placeholder="ejemplo@gmail.com" class="form-control">
 
-            <label for="subject"></label><br>
-            <select name="subject" id="subject" required onchange="mostrarCampo(this)">
-                <option value="FP">FP</option>
-                <option value="AgenciaColocacion">Agencia De Colocación</option>
-                <option value="option3">Option 3</option>
-                <option value="other">Otro</option>
-            </select><br>
+                            <label for="subject" class="form-label">Asunto:</label>
+                            <select name="subject" id="subject" required onchange="mostrarCampo(this)" class="form-control">
+                                <option selected>Elige una opción</option>
+                                <option value="FP">FP</option>
+                                <option value="AgenciaColocacion">Agencia De Colocación</option>
+                                <option value="option3">Option 3</option>
+                                <option value="other">Otro</option>
+                            </select>
 
-            <!-- Campo visible solo si elige "otro" -->
-            <div id="camp-other" style="display: none; margin-top: 10px;">
-                <label for="other-text"></label><br>
-                <input type="text" id="other-text" name="other-text" placeholder="Especifique su tema">
+                            <!-- Campo visible solo si elige "otro" -->
+                            <div id="camp-other" style="display: none; margin-top: 10px;">
+                                <label for="other-text" class="form-label">Otro:</label>
+                                <input type="text" id="other-text" name="other-text" placeholder="Especifique su tema" class="form-control">
+                            </div>
+
+                            <label for="mesage" class="form-label">Mensaje:</label>
+                            <textarea name="mesage" id="mesage" rows="5" required placeholder="Escriba su mensaje" class="form-control"></textarea>
+
+                            <br>
+                            <input type="submit" value="ENVIAR" class="btn btn-primary">
+                        </form>
+                    </div>
+                </div>
             </div>
 
-            <label for="mesage"></label><br>
-            <textarea name="mesage" id="mesage" rows="5"  required placeholder="Escriba su mensaje"></textarea><br><br>
 
-            <input type="submit" value="ENVIAR">
-        </form>
-    </div>
-
-    <script>
-        function mostrarCampo(select) {
-            const camp = document.getElementById('camp-other');
-            const otherInput =document.getElementById('other-text');
-            if (select.value === 'other') {
-                camp.style.display = 'block';
-                otherInput.setAttribute('required','required');
-            } else {
-                camp.style.display = 'none';
-                otherInput.removeAttribute('required');
-                document.getElementById('other-text').value = '';
-            }
-        }
-    </script>
 </section>
 
 

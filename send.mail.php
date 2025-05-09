@@ -10,10 +10,9 @@ if (file_exists(__DIR__ . '/.env')) {
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-
-require 'C:/xampp/htdocs/cep-san_juan/src/Exception.php';
-require 'C:/xampp/htdocs/cep-san_juan/src/PHPMailer.php';
-require 'C:/xampp/htdocs/cep-san_juan/src/SMTP.php';
+require '../cep-san_juan/src/Exception.php';
+require '../cep-san_juan/src/PHPMailer.php';
+require '../cep-san_juan/src/SMTP.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = htmlspecialchars($_POST['name']);
