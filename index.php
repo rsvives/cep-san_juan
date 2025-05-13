@@ -48,78 +48,108 @@
             </div>
         </section> -->
 
-        <section id="slider">
-
-        </section>
-        <section id="quienes-somos">
-        </section>
-
-       <section id="contacto" class="container-fluid">
-    <div class="p-5">
-        <div class="row">
-            <!-- Columna para imagen: ocupa todo el ancho en pantallas pequeñas, 6 columnas en pantallas grandes -->
-            <div class="col-12 col-md-6">
-                <img src="" alt="imagen del centro" class="img-fluid">
-            </div>
-
-            <!-- Columna para formulario: ocupa todo el ancho en pantallas pequeñas, 6 columnas en pantallas grandes -->
-            <div class="col-12 col-md-6">
-                <form action="send.mail.php" method="post" class="mb-3">
-                    <label for="name" class="form-label">Nombre:</label>
-                    <input type="text" id="name" name="name" required placeholder="Pon tu nombre completo" class="form-control">
-
-                    <label for="mail" class="form-label">Email:</label>
-                    <input type="email" id="mail" name="mail" required placeholder="ejemplo@gmail.com" class="form-control">
-
-                    <label for="subject" class="form-label">Asunto:</label>
-                    <select name="subject" id="subject" required onchange="mostrarCampo(this)" class="form-control">
-                        <option selected>Elige una opción</option>
-                        <option value="FP">FP</option>
-                        <option value="AgenciaColocacion">Agencia De Colocación</option>
-                        <option value="option3">Option 3</option>
-                        <option value="other">Otro</option>
-                    </select>
-
-                    <!-- Campo visible solo si elige "otro" -->
-                    <div id="camp-other" style="display: none; margin-top: 10px;">
-                        <label for="other-text" class="form-label">Otro:</label>
-                        <input type="text" id="other-text" name="other-text" placeholder="Especifique su tema" class="form-control">
+        <section id="slider" class="slide">
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3500">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="" class="d-block w-100" alt="foto1">
                     </div>
-
-                    <label for="mesage" class="form-label">Mensaje:</label>
-                    <textarea name="mesage" id="mesage" rows="5" required placeholder="Escriba su mensaje" class="form-control"></textarea>
-
-                    <br>
-                    <input type="submit" value="ENVIAR" class="btn btn-primary">
-                </form>
+                    <div class="carousel-item">
+                        <img src="" class="d-block w-100" alt="foto2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="" class="d-block w-100" alt="foto3">
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
+            <section id="quienes-somos" style="background-color: #333;" class="justify gold">
+                <h1>QUIENES SOMOS</h1>
+                <h2>Una empresa con experiencia y pasión por la enseñanza</h2>
+                <p style="color: pink;">En el Centro de Estudios Profesionales San Juan asumimos como una de
+                    las premisas fundamentales la prestación de un servicio formativo actualizado y de calidad.</p>
+                <p style="color: pink;">Asimismo mantenemos la responsabilidad de desarrollar un trabajo
+                    honesto y profesional, basado en la experiencia y el compromiso constante con nuestros clientes. </p>
+                <h4>Instalaciones de vanguardias</h4>
+                <p style="color: pink;">Nuestras instalaciones están dotadas de cómodas aulas, tecnología
+                    acorde a las exigencias y somos el primer centro privado de enseñanza en Asturias cuyas instalaciones
+                    han obtenido el certificado de accesibilidad universal.</p>
+                <h4>Accesibilidad para todos</h4>
+                <p style="color: pink;">Disponemos de rampa de acceso, creemos que las barreras sólo existen si
+                    nosotros las creamos. Por ello, somos un centro donde los límites físicos no existen. Así todos tienen
+                    las mismas oportunidades de crecer intelectualmente. Su satisfacción es la mejor muestra de nuestra
+                    calidad.</p>
+                <div class="text-end">
+                    <a class="btn btn-primary buttom" href="https://www.cepsanjuan.com/conocenos/" target="_blank"
+                        role="button">Saber más</a>
+                </div>
+            </section>
+
+            <section id="contacto" class="container-fluid">
+                <div class="p-5">
+                    <div class="row">
+                        <!-- Columna para imagen: ocupa todo el ancho en pantallas pequeñas, 6 columnas en pantallas grandes -->
+                        <div class="col-12 col-md-6">
+                            <img src="" alt="imagen del centro" class="img-fluid">
+                        </div>
+
+                        <!-- Columna para formulario: ocupa todo el ancho en pantallas pequeñas, 6 columnas en pantallas grandes -->
+                        <div class="col-12 col-md-6">
+                            <form action="send.mail.php" method="post" class="mb-3">
+                                <label for="name" class="form-label">Nombre:</label>
+                                <input type="text" id="name" name="name" required placeholder="Pon tu nombre completo" class="form-control">
+
+                                <label for="mail" class="form-label">Email:</label>
+                                <input type="email" id="mail" name="mail" required placeholder="ejemplo@gmail.com" class="form-control">
+
+                                <label for="subject" class="form-label">Asunto:</label>
+                                <select name="subject" id="subject" required onchange="mostrarCampo(this)" class="form-control">
+                                    <option selected>Elige una opción</option>
+                                    <option value="FP">FP</option>
+                                    <option value="AgenciaColocacion">Agencia De Colocación</option>
+                                    <option value="option3">Option 3</option>
+                                    <option value="other">Otro</option>
+                                </select>
+
+                                <!-- Campo visible solo si elige "otro" -->
+                                <div id="camp-other" style="display: none; margin-top: 10px;">
+                                    <label for="other-text" class="form-label">Otro:</label>
+                                    <input type="text" id="other-text" name="other-text" placeholder="Especifique su tema" class="form-control">
+                                </div>
+
+                                <label for="mesage" class="form-label">Mensaje:</label>
+                                <textarea name="mesage" id="mesage" rows="5" required placeholder="Escriba su mensaje" class="form-control"></textarea>
+
+                                <br>
+                                <input type="submit" value="ENVIAR" class="btn btn-primary">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
 
     </main>
-<footer class="bg-dark text-white py-5">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="col-md-4 mb-3">
-        <a href="https://www.google.com/maps?..." class="text-white text-decoration-none d-block">
-          C/ San Pedro Mestallón, 11 - Bajo
-        </a>
-      </div>
-      <div class="col-md-4 mb-3">
-        <a href="tel:<?php echo $telefono1 ?>" class="text-white text-decoration-none d-block">985 216 462</a>
-        <a href="tel:<?php echo $telefono2 ?>" class="text-white text-decoration-none d-block">+34 608 741 441</a>
-      </div>
-<div class="d-flex justify-content-center gap-3">
-  <a href="http://www.facebook.com/pages/Centro-de-Estudios-Profesionales-San-Juan/319639151451384" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
-  <a href="https://twitter.com/CEPSANJUAN" class="text-white"><i class="fab fa-x-twitter fa-lg"></i></a>
-</div>
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-4 mb-3">
+                    <a href="https://www.google.com/maps?..." class="text-white text-decoration-none d-block">
+                        C/ San Pedro Mestallón, 11 - Bajo
+                    </a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="tel:<?php echo $telefono1 ?>" class="text-white text-decoration-none d-block">985 216 462</a>
+                    <a href="tel:<?php echo $telefono2 ?>" class="text-white text-decoration-none d-block">+34 608 741 441</a>
+                </div>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="http://www.facebook.com/pages/Centro-de-Estudios-Profesionales-San-Juan/319639151451384" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="https://twitter.com/CEPSANJUAN" class="text-white"><i class="fab fa-x-twitter fa-lg"></i></a>
+                </div>
 
-    </div>
-  </div>
-</footer>
+            </div>
+        </div>
+    </footer>
 
 
 

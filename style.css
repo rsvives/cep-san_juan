@@ -1,33 +1,36 @@
 .menu {
-    display: flex;
-    justify-content: center;       /* Centra todo el contenido */
-    align-items: center;
-    position: relative;
-    height: 80px;
-    background-color: #f0f0f0;
-    padding: 0 20px;
-  }
-  
-  .logo {
-    position: absolute;
-    left: 20px;                   /* Fija el logo a la izquierda */
-  }
-  
-  .logo img {
-    height: 50px;
-  }
-  
-  .buttons {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .buttons a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  /*
+  display: flex;
+  justify-content: center;
+  /* Centra todo el contenido */
+  align-items: center;
+  position: relative;
+  height: 80px;
+  background-color: #f0f0f0;
+  padding: 0 20px;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  /* Fija el logo a la izquierda */
+}
+
+.logo img {
+  height: 50px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/*
   #contacto{
     display: flex;
     justify-content: center;
@@ -35,3 +38,42 @@
     position: relative;
     padding: 0 20px;
   }*/
+.justify {
+  text-align: center;
+}
+
+.gold {
+  color: goldenrod;
+}
+
+h2,
+h4 {
+  margin-top: 10px;
+}
+
+p {
+  text-align: left;
+  margin: 13px;
+  /*alinea el texto a la izq y le da un margen de 13px arriba, izquierda y derecha*/
+  margin-top: 0px;
+}
+
+.buttom {
+  margin-bottom: 1%;
+  margin-right: 1%;
+  /*pone un margen al botón y le cambia el color al borde*/
+  border: #000000;
+}
+
+.btn:hover {
+  background-color: #94c9ce;
+  /*cuando pasa el ratón por encima del botón se cambia el color del contorno a azul claro y las letras a negro*/
+  color: #110d0d;
+}
+
+.slide {
+  margin: 20px;
+  width: 100%;
+  /*crea unn margen de 20px y le da un ancho del 100%*/
+  height: auto;
+}
