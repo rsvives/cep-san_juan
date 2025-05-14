@@ -71,9 +71,14 @@ p {
   color: #110d0d;
 }
 
-.slide {
-  margin: 20px;
-  width: 100%;
-  /*crea unn margen de 20px y le da un ancho del 100%*/
-  height: auto;
+#quienes-somos p{
+  color: pink;
+  text-align: center;
+}
+.carousel-img{
+  height: 500px;
+  object-fit: cover;
+}
+.accordion-text{
+  padding-top: 0%;
 }
