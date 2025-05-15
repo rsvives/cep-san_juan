@@ -49,36 +49,43 @@
 
         <section id="slider" class="slide">
             <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3500">
+                 <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="" class="d-block w-100" alt="foto1">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 carousel-img" alt="foto1">
                     </div>
                     <div class="carousel-item">
-                        <img src="" class="d-block w-100" alt="foto2">
+                        <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 carousel-img" alt="foto2">
                     </div>
                     <div class="carousel-item">
-                        <img src="" class="d-block w-100" alt="foto3">
+                        <img src="https://plus.unsplash.com/premium_photo-1680807869780-e0876a6f3cd5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 carousel-img" alt="foto3">
                     </div>
                 </div>
+                              
             </div>
+        </section>
+        
             <section id="quienes-somos" style="background-color: #333;" class="justify gold">
                 <h1>QUIENES SOMOS</h1>
                 <h2>Una empresa con experiencia y pasión por la enseñanza</h2>
-                <p style="color: pink;">En el Centro de Estudios Profesionales San Juan asumimos como una de
+                <p>En el Centro de Estudios Profesionales San Juan asumimos como una de
                     las premisas fundamentales la prestación de un servicio formativo actualizado y de calidad.</p>
-                <p style="color: pink;">Asimismo mantenemos la responsabilidad de desarrollar un trabajo
+                <p>Asimismo mantenemos la responsabilidad de desarrollar un trabajo
                     honesto y profesional, basado en la experiencia y el compromiso constante con nuestros clientes. </p>
                 <h4>Instalaciones de vanguardias</h4>
-                <p style="color: pink;">Nuestras instalaciones están dotadas de cómodas aulas, tecnología
+                <p>Nuestras instalaciones están dotadas de cómodas aulas, tecnología
                     acorde a las exigencias y somos el primer centro privado de enseñanza en Asturias cuyas instalaciones
                     han obtenido el certificado de accesibilidad universal.</p>
                 <h4>Accesibilidad para todos</h4>
-                <p style="color: pink;">Disponemos de rampa de acceso, creemos que las barreras sólo existen si
-                    nosotros las creamos. Por ello, somos un centro donde los límites físicos no existen. Así todos tienen
-                    las mismas oportunidades de crecer intelectualmente. Su satisfacción es la mejor muestra de nuestra
-                    calidad.</p>
+                <p>Disponemos de rampa de acceso, creemos que las barreras sólo existen si
+                    nosotros las creamos. Por ello, somos un centro donde los límites físicos no existen.</p>
+                <p>Así todos tienen las mismas oportunidades de crecer intelectualmente. Su satisfacción es la mejor muestra de nuestra calidad.</p>
                 <div class="text-end">
-                    <a class="btn btn-primary buttom" href="https://www.cepsanjuan.com/conocenos/" target="_blank"
+                    <a class="btn btn-primary buttom" href="http://localhost/CEP-SAN_JUAN/conocenos.php" target="_blank"
                         role="button">Saber más</a>
                 </div>
             </section>
