@@ -24,8 +24,10 @@
 
             <!-- aquí irá el menú de navegación: navbar -->
         </header>
-        <h2>CONÓCENOS</h2>
-        <img src="" alt="logo-cep_sanjuan">
+        <section id="conocenos">
+            <h4>CONÓCENOS</h4>
+            <img src="https://cepsanjuan.com/wp-content/uploads/2016/06/Logo_2014c.png" alt="logo-cep_sanjuan">
+        </section>
     </main>
     <div class="accordion accordion-flush text-center" id="accordionFlushExample">
         <div class="accordion-item">
@@ -63,6 +65,7 @@
             </div>
         </div>
     </div>
+    <img src="https://cepsanjuan.com/wp-content/uploads/2016/06/aula1.jpg" alt="foto-aula">
 </body>
 
 </html>

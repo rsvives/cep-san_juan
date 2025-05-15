@@ -46,8 +46,7 @@
   color: goldenrod;
 }
 
-h2,
-h4 {
+#quienes-somos h2, h4 {
   margin-top: 10px;
 }
 
@@ -81,4 +80,13 @@ p {
 }
 .accordion-text{
   padding-top: 0%;
+}
+#conocenos h4{
+  margin: 1%;
+  text-decoration-line: underline;
+  text-decoration-color: orange;
+}
+img{
+  display: block; margin: 3% auto;
+  height: auto;
 }

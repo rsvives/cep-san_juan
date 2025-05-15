@@ -86,7 +86,7 @@
                     nosotros las creamos. Por ello, somos un centro donde los límites físicos no existen.</p>
                 <p>Así todos tienen las mismas oportunidades de crecer intelectualmente. Su satisfacción es la mejor muestra de nuestra calidad.</p>
                 <div class="text-end">
-                    <a class="btn btn-primary buttom" href="conocenos.php" target="_blank"
+                    <a class="btn btn-primary buttom" href="http://localhost/CEP-SAN_JUAN/conocenos.php" target="_blank"
                         role="button">Saber más</a>
                 </div>
             </section>
