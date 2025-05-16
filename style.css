@@ -46,7 +46,8 @@
   color: goldenrod;
 }
 
-#quienes-somos h2, h4 {
+#quienes-somos h2,
+h4 {
   margin-top: 10px;
 }
 
@@ -70,23 +71,55 @@ p {
   color: #110d0d;
 }
 
-#quienes-somos p{
+#quienes-somos p {
   color: pink;
   text-align: center;
 }
-.carousel-img{
+
+.carousel-img {
   height: 500px;
   object-fit: cover;
 }
-.accordion-text{
+
+.accordion-text {
   padding-top: 0%;
 }
-#conocenos h4{
-  margin: 1%;
+
+#conocenos h4 {
+  margin: 40px;
+  text-align: center;
   text-decoration-line: underline;
-  text-decoration-color: orange;
+  text-decoration-color: #ff7f00;
+  background-color: #001f4d;
+  color: white;
 }
-img{
-  display: block; margin: 3% auto;
+
+#conocenos p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 3% auto;
   height: auto;
+}
+#accordion{
+  background-color: #001f4d;
+}
+.accordion-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ubi{
+  text-align: center;
+  margin-bottom: 60px;
+}
+#contacta h4{
+  margin: 40px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: #ff7f00;
+}
+.relleno{
+  margin-bottom: 100px;
 }
