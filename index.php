@@ -15,8 +15,8 @@
 
 </head>
 
-<body>
-    <main>
+<body class="d-flex flex-column min-vh-100">
+    <main class="flex-grow-1">
         <header>
             <?php include_once("menu.html");
 
@@ -129,7 +129,7 @@
 
 
     </main>
-    <footer class="bg-dark text-white py-5">
+    <footer class="bg-dark text-white py-5 mt-auto">
         <?php 
         include("footer.php");
         ?>
