@@ -81,6 +81,10 @@ p {
   object-fit: cover;
 }
 
+#botones{
+  background-color: gray;
+}
+
 .accordion-text {
   padding-top: 0%;
 }
@@ -111,7 +115,6 @@ img {
   margin-bottom: 10px;
 }
 .ubi{
-  text-align: center;
   margin-bottom: 60px;
 }
 #contacta h4{

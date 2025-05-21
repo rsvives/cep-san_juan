@@ -30,7 +30,7 @@
         <section class="container relleno">
             <div class="row container-fluid">
                 <div class="col-12 col-md-6 ubi">
-                    <iframe
+                    <iframe class="w-100"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5801.741415438002!2d-5.840796!3d43.358815!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd368ce9551bd945%3A0x7f6be4d90cf9911f!2sC.%20San%20Pedro%20de%20Mestall%C3%B3n%2C%2011%2C%2033009%20Oviedo%2C%20Asturias%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sus!4v1747390013557!5m2!1ses!2sus"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
