@@ -11,18 +11,20 @@
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" />
   <script src="menu.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <header>
-        <?php 
-        include("menu.html");?>
-    </header>
+  <header>
+    <?php
+    include("menu.html"); ?>
+
+  </header>
   <main class="flex-grow-1">
     <div class="container my-5">
-        <h2>FP</h2>
-        <br>
-        <h3>Ciclo Formativo de Grado Superior</h3>
+      <h2>FP</h2>
+      <br>
+      <h3>Ciclo Formativo de Grado Superior</h3>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
@@ -213,35 +215,35 @@
                     <<tr>
                       <td>Transporte internacional de mercancías</td>
                       <td>160</td>
-                    </tr>
-                    <tr>
-                      <td>Gestión económica y financiera de la empresa</td>
-                      <td>192</td>
-                    </tr>
-                    <tr>
-                      <td>Logística de almacenamiento</td>
-                      <td>128</td>
-                    </tr>
-                    <tr>
-                      <td>Gestión administrativa del comercio internacional</td>
-                      <td>192</td>
-                    </tr>
-                    <tr>
-                      <td>Lengua inglesa</td>
-                      <td>96</td>
-                    </tr>
-                    <tr>
-                      <td>Formación y orientación laboral</td>
-                      <td>96</td>
-                    </tr>
-                    <tr>
-                      <td>Módulo impartido en inglés</td>
-                      <td>96</td>
-                    </tr>
-                    <tr>
-                      <th>TOTAL</th>
-                      <th>960</th>
-                    </tr>
+                      </tr>
+                      <tr>
+                        <td>Gestión económica y financiera de la empresa</td>
+                        <td>192</td>
+                      </tr>
+                      <tr>
+                        <td>Logística de almacenamiento</td>
+                        <td>128</td>
+                      </tr>
+                      <tr>
+                        <td>Gestión administrativa del comercio internacional</td>
+                        <td>192</td>
+                      </tr>
+                      <tr>
+                        <td>Lengua inglesa</td>
+                        <td>96</td>
+                      </tr>
+                      <tr>
+                        <td>Formación y orientación laboral</td>
+                        <td>96</td>
+                      </tr>
+                      <tr>
+                        <td>Módulo impartido en inglés</td>
+                        <td>96</td>
+                      </tr>
+                      <tr>
+                        <th>TOTAL</th>
+                        <th>960</th>
+                      </tr>
                   </tbody>
                 </table>
               </div>

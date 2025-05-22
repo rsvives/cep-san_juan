@@ -12,6 +12,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="menu.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
@@ -35,7 +36,7 @@
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <strong>Nuestra trayectoria</strong> 
+                    <strong>Nuestra trayectoria</strong>
                 </button>
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -62,7 +63,7 @@
                 </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">(texto de ejemplo)Contamos con x aulas para todo tipo de enseñanza. En cada aula hay pizarras con proyector para poder impartir las clases de la mejor manera posible, tambien disponemos de portatiles para  los alumnos.</div>
+                <div class="accordion-body">(texto de ejemplo)Contamos con x aulas para todo tipo de enseñanza. En cada aula hay pizarras con proyector para poder impartir las clases de la mejor manera posible, tambien disponemos de portatiles para los alumnos.</div>
             </div>
         </div>
     </div>

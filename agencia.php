@@ -13,9 +13,11 @@
   <!-- Tu CSS (opcional) -->
   <link rel="stylesheet" href="style.css" />
   <script src="menu.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <!-- d-flex + flex-column + min-vh-100 hacen que body ocupe toda la altura -->
+
 <body class="d-flex flex-column min-vh-100">
 
   <header>
@@ -28,7 +30,7 @@
 
     <section class="container py-5">
       <div class="text-center mb-4">
-        <img src="./img/agencia de colocacion.png" alt="Imagen de la agencia" class="img-fluid" style="height:400px"/>
+        <img src="./img/agencia de colocacion.png" alt="Imagen de la agencia" class="img-fluid" style="height:400px" />
       </div>
 
       <div class="p-4">
@@ -63,4 +65,5 @@
   </footer>
 
 </body>
+
 </html>
