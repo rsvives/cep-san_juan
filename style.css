@@ -46,8 +46,7 @@
   color: goldenrod;
 }
 
-h2,
-h4 {
+#quienes-somos h2, h4 {
   margin-top: 10px;
 }
 
@@ -71,9 +70,23 @@ p {
   color: #110d0d;
 }
 
-.slide {
-  margin: 20px;
-  width: 100%;
-  /*crea unn margen de 20px y le da un ancho del 100%*/
+#quienes-somos p{
+  color: pink;
+  text-align: center;
+}
+.carousel-img{
+  height: 500px;
+  object-fit: cover;
+}
+.accordion-text{
+  padding-top: 0%;
+}
+#conocenos h4{
+  margin: 1%;
+  text-decoration-line: underline;
+  text-decoration-color: orange;
+}
+img{
+  display: block; margin: 3% auto;
   height: auto;
 }
