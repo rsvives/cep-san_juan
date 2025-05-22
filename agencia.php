@@ -16,6 +16,7 @@
 </head>
 
 <!-- d-flex + flex-column + min-vh-100 hacen que body ocupe toda la altura -->
+
 <body class="d-flex flex-column min-vh-100">
 
   <header>
@@ -28,16 +29,21 @@
 
     <section class="container py-5">
       <div class="text-center mb-4">
-        <img src="./img/agencia de colocacion.png" alt="Imagen de la agencia" class="img-fluid" style="height:400px"/>
+        <img src="./img/work.jpg" alt="Imagen de la agencia" class="img-fluid" />
       </div>
 
       <div class="p-4">
         <p>
           Bienvenidos a nuestra agencia de colocación. Nuestra finalidad consiste en proporcionar a los demandantes de empleo un puesto de trabajo adecuado a sus características profesionales y facilitar a las empresas los candidatos con el perfil más apropiado a sus requerimientos y necesidades.
         </p>
-        <p>
-          La Agencia de Colocación es un instrumento gratuito que valora los perfiles, aptitudes, conocimientos y cualificaciones profesionales de los demandantes de empleo para proporcionarles una mejor empleabilidad y acceso al mercado laboral.
-        </p>
+        <div class="row">
+          <div class="col"><img style="width: 100%;" src="./img/agencia de colocacion.png" alt="agencia de colocación"></div>
+          <div class="col">
+            <p>
+              La Agencia de Colocación es un instrumento gratuito que valora los perfiles, aptitudes, conocimientos y cualificaciones profesionales de los demandantes de empleo para proporcionarles una mejor empleabilidad y acceso al mercado laboral.
+            </p>
+          </div>
+        </div>
         <p>
           Asimismo piensa en la mejora de las empresas y su productividad facilitándoles las personas más adecuadas a sus requerimientos y necesidades.
         </p>
@@ -63,4 +69,5 @@
   </footer>
 
 </body>
+
 </html>
