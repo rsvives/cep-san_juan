@@ -1,8 +1,13 @@
+document.addEventListener("DOMContentLoaded", function() {
+  const currentPath = window.location.pathname.toLowerCase();
+  console.log("Current Path:", currentPath);
 
-  const currentPage = window.location.pathname.split("/").pop();
-
-  document.querySelectorAll('#mainMenu .nav-link').forEach(link => {
-    if (link.getAttribute('href') === currentPage) {
+  document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+    const linkPath = new URL(link.href).pathname.toLowerCase();
+    console.log("Link Path:", linkPath);
+    if (linkPath === currentPath) {
+      console.log("Match found! Activating:", link.href);
       link.classList.add('active');
     }
   });
+});

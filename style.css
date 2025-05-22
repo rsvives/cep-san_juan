@@ -92,8 +92,11 @@ img{
 }
 
 
-.nav-link.active {
+.navbar-nav .nav-link.active {
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: 600;
+  text-decoration-color: blue;
+  text-decoration-thickness: 3px;
 }
+
 
