@@ -38,25 +38,31 @@
     position: relative;
     padding: 0 20px;
   }*/
-.justify {
+/* .justify {
   text-align: center;
+} */
+
+#quienes-somos {
+  background-color: #333;
+  /* margin-top: 24px; */
+
+  h2,
+  h3,
+  h4 {
+    margin-top: 10px;
+    color: goldenrod;
+  }
+
+  p {
+    color: #FFF;
+    /* text-align: center; */
+    margin: 8px auto 12px;
+  }
+
 }
 
-.gold {
-  color: goldenrod;
-}
 
-#quienes-somos h2,
-h4 {
-  margin-top: 10px;
-}
 
-p {
-  text-align: left;
-  margin: 13px;
-  /*alinea el texto a la izq y le da un margen de 13px arriba, izquierda y derecha*/
-  margin-top: 0px;
-}
 
 .buttom {
   margin-bottom: 1%;
@@ -71,13 +77,10 @@ p {
   color: #110d0d;
 }
 
-#quienes-somos p {
-  color: pink;
-  text-align: center;
-}
+
 
 .carousel-img {
-  height: 500px;
+  min-height: 500px;
   object-fit: cover;
 }
 
@@ -102,25 +105,29 @@ p {
 
 img {
   display: block;
-  margin: 3% auto;
   height: auto;
 }
-#accordion{
+
+#accordion {
   background-color: #001f4d;
 }
+
 .accordion-item {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.ubi{
+
+.ubi {
   margin-bottom: 60px;
 }
-#contacta h4{
+
+#contacta h4 {
   margin: 40px;
   text-align: center;
   text-decoration-line: underline;
   text-decoration-color: #ff7f00;
 }
-.relleno{
+
+.relleno {
   margin-bottom: 100px;
 }
