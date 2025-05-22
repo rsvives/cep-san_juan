@@ -12,6 +12,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="form.js"></script>
+    <script src="menu.js"></script>
 
 </head>
 

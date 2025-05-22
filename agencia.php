@@ -12,6 +12,7 @@
 
   <!-- Tu CSS (opcional) -->
   <link rel="stylesheet" href="style.css" />
+  <script src="menu.js"></script>
 </head>
 
 <!-- d-flex + flex-column + min-vh-100 hacen que body ocupe toda la altura -->
@@ -27,7 +28,7 @@
 
     <section class="container py-5">
       <div class="text-center mb-4">
-        <img src="ruta-a-tu-imagen.jpg" alt="Imagen de la agencia" class="img-fluid" />
+        <img src="./img/agencia de colocacion.png" alt="Imagen de la agencia" class="img-fluid" style="height:400px"/>
       </div>
 
       <div class="p-4">

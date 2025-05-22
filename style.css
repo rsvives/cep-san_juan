@@ -90,3 +90,10 @@ img{
   display: block; margin: 3% auto;
   height: auto;
 }
+
+
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
